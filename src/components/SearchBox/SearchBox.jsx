@@ -19,7 +19,8 @@ searchUrl += 'https://api.bing.com/osjson.aspx?query='
 
 /**
  * User's typing will generate a list of auto suggest keywords,
- * received the *Auto-suggest API*
+ * received from the *Auto-suggest API* 
+ * 
  * User's submit will invoke the handleSubmit function,
  * then redirecting the page into search results page,
  * using the *Search-redirect API*

@@ -1,68 +1,54 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# [New Tab Extension](https://github.com/shpiglify/new-tab-chrome-extension) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react) 
+
+
+
+New Tab is a chrome extension that change and control some of the browser's default settings and behaviours. 
+
+#### Main features:
+* **Control on new-tab html page:** New tab html contains a simple text input, which acts as a search box:
+user's typing will generate a list of auto suggest keywords (using the *Auto-suggest API*), user's submit will redirect the page into search results page (using the *Search redirect API*).
+* **Taking over the default search settings:** The app takes over the default search engine, and the auto-suggest in the browser.
+* **Search history widget:** The app search for your last websites in chrome's surfing history, and displays them as links to the user.
+* **Modular component based structure, easy to scale:** Because the app is written using *[react framework](https://github.com/facebook/create-react-app)*, its components are fully modular, and easy to reuse.
+
 
 ## Getting started
 
-In the project directory, you can run:
+1. after cloning or downloading the project directory run **`npm install`**
 
-### `npm start`
+2. make sure you are in the project root directory and run: **`npm run build`**
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3. Go to [chrome://extensions/](chrome://extensions/).
+4. At the top right, turn on **Developer mode**.
+5. Click **Load unpacked**.
+6. Find and select the `build/` folder in main project folder.
+7. Open a new tab in Chrome and Make sure the app loads and works correctly.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+For more information or error handling visit [Create and publish custom Chrome apps & extensions](https://support.google.com/chrome/a/answer/2714278?hl=en).
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ 
 
-### `npm run build`
+## Documentation
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+For documentation the project uses *[react-styleguide](https://github.com/styleguidist/react-styleguidist)*
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+ **[Click here for the app's full documentation](https://shpiglify.github.io/new-tab-chrome-extension/)** 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Testing & Development mode
 
-### `npm run eject`
+### Development mode
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To test the app in **react development node**, run **`npm start`**.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Take notice, some features does not work in development mode. In this case, the project uses mock data.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Integration testing
+For Integration testing the project uses *[selenium](https://www.npmjs.com/package/selenium-webdriver)* npm package.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To run the tests, use the **`npm run test`** command
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Take notice, the tests are selenium based, and require you to have a chromedriver executable on your computer. The above npm package link contains further explanation regarding this matter.

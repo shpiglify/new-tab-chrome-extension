@@ -25,7 +25,8 @@ if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
 }
 
 /**
- * The component displays user's history links.
+ * The component searches the user's website history,
+ * and displays historyItem for each site.
  */
 
 class HistoryWidget extends Component {
