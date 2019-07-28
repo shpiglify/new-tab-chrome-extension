@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.443cc775.chunk.css",
-    "main.js": "/build/main.472159a9.js",
-    "runtime~main.js": "/build/bundle.feb19782.js",
-    "build/2.e3886eb2.js": "/build/2.e3886eb2.js",
-    "index.html": "/index.html",
-    "precache-manifest.2b5f7df998b68f111bc8363207255253.js": "/precache-manifest.2b5f7df998b68f111bc8363207255253.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.443cc775.chunk.css.map": "/static/css/main.443cc775.chunk.css.map",
-    "static/media/bing-logo.png": "/static/media/bing-logo.981bb2c1.png"
+    "main.css": "/new-tab-chrome-extension/static/css/main.443cc775.chunk.css",
+    "main.js": "/new-tab-chrome-extension/build/main.edcc8020.js",
+    "runtime~main.js": "/new-tab-chrome-extension/build/bundle.feb19782.js",
+    "build/2.e3886eb2.js": "/new-tab-chrome-extension/build/2.e3886eb2.js",
+    "index.html": "/new-tab-chrome-extension/index.html",
+    "precache-manifest.780b5c6ed1b4c0396d716539d874f7a9.js": "/new-tab-chrome-extension/precache-manifest.780b5c6ed1b4c0396d716539d874f7a9.js",
+    "service-worker.js": "/new-tab-chrome-extension/service-worker.js",
+    "static/css/main.443cc775.chunk.css.map": "/new-tab-chrome-extension/static/css/main.443cc775.chunk.css.map",
+    "static/media/bing-logo.png": "/new-tab-chrome-extension/static/media/bing-logo.981bb2c1.png"
   }
 }
