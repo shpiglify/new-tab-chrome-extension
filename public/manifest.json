@@ -1,0 +1,32 @@
+{
+    "name": "New Tab Extension",
+    "version": "1.0",
+    "description": "Fullstack Challenge Home Assignment",
+    "manifest_version": 2,
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    }, 
+    "content_security_policy": "script-src 'self' 'sha256-5As4+3YpY62+l38PsxCEkjB1R4YtyktBtRScTJ3fyLU=' object-src 'self'",
+    "chrome_settings_overrides": {
+        "search_provider": {
+            "name": "Bing",
+            "keyword": "keyword.__MSG_url_domain__",
+            "search_url": "https://www.bing.com/search?q={searchTerms}",
+            "favicon_url": "https://site-images.similarcdn.com/image?url=bing.com&t=2&s=1&h=17861410999050535392",
+            "suggest_url": "https://api.bing.com/osjson.aspx?query={searchTerms}",
+            "instant_url": "http://www.foo.__MSG_url_domain__/instant?q={searchTerms}",
+            "search_url_post_params": "search_lang=__MSG_url_domain__",
+            "instant_url_post_params": "instant_lang=__MSG_url_domain__",
+            "image_url_post_params": "image_lang=__MSG_url_domain__",
+            "encoding": "UTF-8",
+            "is_default": true
+        }
+    },
+    "permissions": [
+        "https://api.bing.com/",
+        "history"
+    ],
+    "icons": { "16": "favicon.png",
+        "48": "favicon.png",
+       "128": "favicon.png" }
+}

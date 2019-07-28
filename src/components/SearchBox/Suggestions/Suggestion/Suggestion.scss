@@ -1,0 +1,13 @@
+@import '../../../../scss/variables.scss';
+
+.suggestion {
+    list-style-type: none;
+    text-align: initial;
+    padding:0.8rem 2rem;
+
+    &:hover{
+        background-color: $color-gray-hover;
+        cursor: default;
+
+    }
+}
