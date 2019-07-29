@@ -9,7 +9,9 @@ New Tab is a chrome extension that changes and controls some of the browser's de
 * **Control chrome's new-tab page:** New tab contains a simple text input, which acts as a search box:
 User's typing will generate a list of auto suggested keywords (using the *Auto-suggest API*). User's submit will redirect the page into search results page (using the *Search redirect API*).
 * **Taking over the default search settings:** The extension takes over the default search engine, and the auto-suggest in the browser.
-* **Search history widget:** The extension searches for User's last websites in chrome's surfing history, and displays them as links to the user.
+* **Search history widget:** The extension searches for the User's last websites in chrome's history, and displays them as links to the user.
+
+#### Project structure:
 * **Modular component based structure, easy to scale:** Because the app is written using *[react framework](https://github.com/facebook/create-react-app)*, it's components are fully modular, and easy to reuse.
 
 
@@ -45,7 +47,7 @@ To test the app in **react development node**, run **`npm start`**.
 Take notice, due to the browser's limitaion policy some features won't work in development mode and mock data will be presented.
 
 ### Integration testing
-For Integration testing the project uses *[selenium](https://www.npmjs.com/package/selenium-webdriver)* npm package.
+For Integration testing the project uses *[selenium webdriver](https://www.npmjs.com/package/selenium-webdriver)* npm package.
 
 
 
