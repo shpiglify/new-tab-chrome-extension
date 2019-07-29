@@ -17,9 +17,9 @@ User's typing will generate a list of auto suggested keywords (using the *Auto-s
 
 ## Getting started
 
-1. after cloning or downloading the project directory run **`npm install`**
+1. After cloning or downloading the project directory run **`npm install`**
 
-2. make sure you are in the project root directory and run: **`npm run build`**
+2. Make sure you are in the project root directory and run **`npm run build`**
 
 3. Go to [chrome://extensions/](chrome://extensions/).
 4. At the top right, turn on **Developer mode**.
