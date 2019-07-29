@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "axios": "^0.19.0",
-    "gh-pages": "^2.0.1",
     "lodash": "^4.17.15",
     "node-sass": "^4.12.0",
     "prop-types": "^15.7.2",
@@ -18,7 +17,6 @@
     "react-styleguidist": "^9.1.13",
     "selenium-webdriver": "^4.0.0-alpha.4"
   },
-  "homepage": "https://shpiglify.github.io/new-tab-chrome-extension",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
