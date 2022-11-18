@@ -10,11 +10,11 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-onclickoutside": "^6.8.0",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
-    "react-styleguidist": "^9.1.13",
+    "react-styleguidist": "^13.0.0",
     "selenium-webdriver": "^4.0.0-alpha.4"
   },
   "scripts": {
