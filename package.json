@@ -14,7 +14,7 @@
     "uuid": "^3.3.2"
   },
   "devDependencies": {
-    "react-styleguidist": "^9.1.13",
+    "react-styleguidist": "^9.2.0",
     "selenium-webdriver": "^4.0.0-alpha.4"
   },
   "scripts": {
